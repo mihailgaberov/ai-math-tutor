@@ -13,7 +13,7 @@ Once the project structure is established, populate this section with:
 - **Install dependencies**: e.g. `pip install -e ".[dev]"` or `uv sync`
 - **Run the app**: e.g. `python -m ai_math_tutor` or `uvicorn app.main:app --reload`
 - **Lint**: `ruff check .` and `ruff format --check .`
-- **Tests**: `pytest` or `pytest tests/path/to/test_file.py::test_name` for a single test
+- **Tests**: `.venv/bin/python -m pytest tests/ -v` or `…pytest tests/test_chat.py::TestChat::test_returns_model_reply` for a single test
 - **Type check**: `mypy .` (if mypy is added)
 
 > Update this section when `pyproject.toml`, `requirements.txt`, or equivalent is added.
